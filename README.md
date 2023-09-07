@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   home pagina
-  <img src="readme-images/home-page.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/home-page.PNG" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   age of sigmar pagina
-  <img src="readme-images/warhammer-page.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/warhammer-page.PNG" width="375px" alt="omschrijving van de pagina">
  
 </details>
 

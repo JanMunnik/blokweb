@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.games-workshop.com/en-NL/Home
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  home pagina
   <img src="readme-images/home-page.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  age of sigmar pagina
   <img src="readme-images/warhammer-page.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>

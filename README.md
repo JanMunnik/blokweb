@@ -229,8 +229,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Hamburger Icon: Call 610 - 465 - - White Hamburger Menu Icon PNG - (1168x1084) pNg clipart download. ClipartMax.com. (n.d.). ClipartMax.com. https://www.clipartmax.com/max/m2i8G6G6b1m2A0G6/
+  2. Search icon: Icons, E. (n.d.). "search" Icon - Download for free – Iconduck. Iconduck. https://iconduck.com/icons/103959/search
+  3. Language dutch icon:
 
 </details>

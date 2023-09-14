@@ -232,5 +232,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1. Hamburger Icon: Call 610 - 465 - - White Hamburger Menu Icon PNG - (1168x1084) pNg clipart download. ClipartMax.com. (n.d.). ClipartMax.com. https://www.clipartmax.com/max/m2i8G6G6b1m2A0G6/
   2. Search icon: Icons, E. (n.d.). "search" Icon - Download for free – Iconduck. Iconduck. https://iconduck.com/icons/103959/search
   3. Language dutch icon: Yakovenko, O. (2022). Download the Flag of Netherlands. Symbol of Independence Day, souvenir soccer game, button language, icon. 12. . .. Vecteezy. https://www.vecteezy.com/vector-art/12693880-flag-of-netherlands-symbol-of-independence-day-souvenir-soccer-game-button-language-icon
+  4. Warhammer community icon: Home - Warhammer Community. (2023, September 13). Warhammer Community. https://www.warhammer-community.com/
+  5. Phone icon: phone - IconsPlace. (2018, July 19). IconsPlace. https://iconsplace.com/white-icons/phone-icon-18/
+
+
+
+
 
 </details>

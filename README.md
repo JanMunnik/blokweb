@@ -64,9 +64,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
+  
 </details>
-
+/ TODO!!!!!! /
 
 
 ## Breakdownschets (week 1)
@@ -75,7 +75,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/html_sketch.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -96,25 +96,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1  
+  praten over grids en hoe het mogelijk in de website stijl zou kunnen passen
+  | student 2          
+  praten over grids en flexbox
+  | student 3    
+  vragen wat we allemaal voor sparkel kunnen toevoegen
+  | student 4       
+   kijken wat er verwacht word voor responsive design
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - punt 1
+  - Ik weet nu wat er verwacht word voor responsive design niet alleen dat het goed scalebaar is maar ook dat interface kan verranderen
   - punt 2
+  - sections moeten een header hebben voor screenreader toegankelijkheid
   - nog een punt
-  - ...
+  - ik moet de header aanpassen zodat er geen onodige witruimte is aan de rechterkant 
 
 </details>
 
@@ -241,6 +246,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. Language dutch icon: Yakovenko, O. (2022). Download the Flag of Netherlands. Symbol of Independence Day, souvenir soccer game, button language, icon. 12. . .. Vecteezy. https://www.vecteezy.com/vector-art/12693880-flag-of-netherlands-symbol-of-independence-day-souvenir-soccer-game-button-language-icon
   4. Warhammer community icon: Home - Warhammer Community. (2023, September 13). Warhammer Community. https://www.warhammer-community.com/
   5. Phone icon: phone - IconsPlace. (2018, July 19). IconsPlace. https://iconsplace.com/white-icons/phone-icon-18/
+  6. speech bubble icon: Xinh Studio. (2014, May 24). speech-bubbles. The Noun Project. https://thenounproject.com/icon/speech-bubbles-51907/
+
+
 
 
 

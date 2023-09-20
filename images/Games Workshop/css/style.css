@@ -30,17 +30,19 @@ p {
 
 header {
     background-color: #252525;
-    width: 100vw;
-    padding: 0.5em;
 }
 
 header nav:first-of-type {
     display: flex;
+    flex-direction: column;
+    margin-left:0.3em;
 }
 
 header nav:first-of-type a {
     color: white;
     text-decoration: none;
+    margin-bottom: .3em;
+    margin-top: .6em;
 }
 
 header nav:first-of-type a:nth-of-type(2) {
@@ -50,7 +52,6 @@ header nav:first-of-type a:nth-of-type(2) {
 header nav a {
     display: flex;
     align-items: center;
-    width: 50vw;
 }
 
 header nav:first-of-type img {
@@ -59,11 +60,9 @@ header nav:first-of-type img {
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~Nav2~~~~~~~~~~~~~~~~~~~~~~ */
-
-
 header nav:nth-of-type(2) {
     display: flex;
-    width: 18.95em;
+    justify-content: space-between;
 }
 
 header nav:nth-of-type(2) button {
@@ -73,11 +72,7 @@ header nav:nth-of-type(2) button {
 }
 
 header nav:last-of-type a img{
-    width: 6em;
-}
-
-header nav:last-of-type a {
-    width: 6em;
+    width: 5em;
 }
 
 header nav:last-of-type img{
@@ -104,6 +99,26 @@ header nav:last-of-type button {
 /* --------------------------------------------------main CSS------------------------------------------------------- */
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~hamburger menu~~~~~~~~~~~~~~~~~ */
+/* TODO Jamie checken voor hamburger menu uitklappen en overlappen van website */
+.hamburger a {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #252525;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+
+    /* position:fixed; */
+    /* translate: -100% 0%; */
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~Section1~~~~~~~~~~~~~~~~~~~~~~ */
 main section:first-of-type {
     margin-bottom: 3em;
@@ -114,9 +129,9 @@ main section:first-of-type {
 }
 
 main section:first-of-type img {
-    width: 19.25em;
-    /* TODO hoe scale ik het in height zonder het te stretchen */
-    height: auto;
+    height: 30em;
+    width: 100%;
+    background-size:cover;
 }
 
 main section:first-of-type h2 {
@@ -125,7 +140,6 @@ main section:first-of-type h2 {
     margin-top: 0.5em;
 }
 
-/* TODO Jamie vragen hoe je dit op meerdere buttons kan stylen */
 main section:first-of-type a {
     background-color: orange;
     outline: none;
@@ -146,15 +160,15 @@ main section:first-of-type p {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~Section2~~~~~~~~~~~~~~~~~~~~~~ */
 
-main section:nth-child(2) {
+main section:nth-of-type(2) {
     margin-bottom: 2em;
 }
 
-main section:nth-child(2) img {
-    width: 60vw;
+main section:nth-of-type(2) img {
+    width: 12em;
 }
 
-main section:nth-child(2) li {
+main section:nth-of-type(2) li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,31 +176,29 @@ main section:nth-child(2) li {
     margin-right: 1em;
 }
 
-ul::-webkit-scrollbar {
-    display: none;
-}
-
-/* TODO h2 style voor alles hetzelfde */
-main section:nth-child(2) li h2 {
+main section:nth-of-type(2) li h2 {
     font-weight: 700;
     font-size: 16px;
     text-align: center;
     margin-top: 0.5em;
 }
 
-main section:nth-child(2) li p {
+main section:nth-of-type(2) li p {
     text-align: center;
     margin-bottom: 1em;
     margin-top: 0.5em;
-    max-width: 50vw;
 }
 
-main section:nth-child(2) ul {
+main section:nth-of-type(2) ul {
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+ul::-webkit-scrollbar {
+    display: none;
 }
 
 main section:nth-of-type(2) a {
@@ -203,12 +215,11 @@ main section:nth-of-type(2) a {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~Section3~~~~~~~~~~~~~~~~~~~~~~ */
 
-main section:nth-child(3) {
+main section:nth-of-type(3) {
     margin-bottom: 2em;
 }
 
-/* TODO images toevoegen */
-main section:nth-child(3) a {
+main section:nth-of-type(3) a {
     border: 2px solid black;
     padding: 0.5em;
     display: inline-block;
@@ -216,9 +227,7 @@ main section:nth-child(3) a {
     text-decoration: none;
     color: black;
     font-size: 16px;
-    width: 90vw;
 
-/* TODO Vragen hoe je de tekst links krijgt */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,43 +236,43 @@ main section:nth-child(3) a {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~Section4~~~~~~~~~~~~~~~~~~~~~~ */
 
-main section:nth-child(4) {
+main section:nth-of-type(4) {
     margin-bottom: 2em;
 }
 
-main section:nth-child(4) {
+main section:nth-of-type(4) {
     align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main section:nth-child(4) li {
+main section:nth-of-type(4) li {
     align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main section:nth-child(4) h2 {
+main section:nth-of-type(n+2) h2 {
     font-weight: 700;
     font-size: 16px;
     text-align: center;
     margin-top: 0.5em;
 }
 
-main section:nth-child(4) img {
-    width: 60vw;
+main section:nth-of-type(4) img {
+    width: 12em;
     margin-left: 1em;
     margin-right: 1em;
 }
 
-main section:nth-child(4) p {
+main section:nth-of-type(4) p {
     text-align: center;
     margin-bottom: 1em;
 }
 
-main section:nth-child(4) li p {
+main section:nth-of-type(4) li p {
     font-weight: 700;
     font-size: 16px;
 }
@@ -280,22 +289,13 @@ main section:nth-of-type(4) a {
     margin-bottom: 1em;
 }
 
-main section:nth-child(4) ul {
+main section:nth-of-type(4) ul {
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    width: 19.25em;
-}
-
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~~~~~~~~~~~~~~~~~~Section5~~~~~~~~~~~~~~~~~~~~~~ */
-
-/* TODO KNIP DIE IMAGE WTH??? */
-main section:nth-child(5) img {
-    width: 18.95em;
-    display: block;
+    width: 100%;
 }
 
 
@@ -312,6 +312,12 @@ main section:nth-child(5) img {
 footer {
     background-color: #191919;
 }
+
+footer img {
+    max-height: 10em;
+    width: 100%;
+        display: block;
+    }
 
 footer h2 {
     font-weight: 700;
@@ -336,7 +342,7 @@ footer input {
     width: 87vw;
 }
 
-footer section button {
+footer section button:first-of-type {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -355,23 +361,39 @@ footer > a {
     color: white;
     font-size: 12px;
     margin-left: 1em;
-    /* TODO margin bottom fixe!!! */
 }
 
 footer li a {
     font-weight: 700;
     font-size: 16px;
     color: white;
+    text-decoration: none;
+
     padding-left: 0.5em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     background-color: #252525;
-    width: 18.95em;
+    width: 100%;
     display: inline-block;
-    text-decoration: none;
 }
 
 footer ul {
     margin-top: 1em;
 }
 
+/* TODO jamie checken voor focus nth of type?? email niet pakt! */
+footer button {
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50%;
+    padding: .2em;
+    box-shadow:  0px 5px 5px rgba(0, 0, 0, 0.19);
+}
+
+footer button img {
+    width: 3em;
+}

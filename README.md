@@ -247,6 +247,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   4. Warhammer community icon: Home - Warhammer Community. (2023, September 13). Warhammer Community. https://www.warhammer-community.com/
   5. Phone icon: phone - IconsPlace. (2018, July 19). IconsPlace. https://iconsplace.com/white-icons/phone-icon-18/
   6. speech bubble icon: Xinh Studio. (2014, May 24). speech-bubbles. The Noun Project. https://thenounproject.com/icon/speech-bubbles-51907/
+  7. promotional art aos: Harrison, A. (2021). AOS: Ironjawz Faction Focus – Vanguard of Destruction. Bell of Lost Souls. https://www.belloflostsouls.net/2018/05/aos-ironjawz-faction-focus-vanguard-of-destruction.html
+
+
 
 
 

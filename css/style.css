@@ -197,6 +197,7 @@ footer form button {
     margin-bottom: 0.5em;
     width: 87vw;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 footer form button:hover {
@@ -212,6 +213,12 @@ footer form {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+footer form label {
+    color: white;
+    margin-left: 1em;
+    margin-top: 1em;
 }
 
 footer>a {

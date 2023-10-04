@@ -243,7 +243,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="./readme-images/karakteristiek1.PNG" width="375px" alt="footer met customer service img die responsive verranderd van image en height">
+  <img src="./readme-images/karakteristiek2.PNG" width="375px" alt="news tabs in grid responsive">
+  <img src="./readme-images/karakteristiek3.PNG" width="375px" alt="uitklapbaar refine menu met checkboxes">
+  <img src="./readme-images/karakteristiek4.PNG" width="375px" alt="verschillende producten waar je doorheen kan scrollen">
+  <img src="./readme-images/karakteristiek5.PNG" width="375px" alt="Darkmode">
 
 
   ### Dit ging goed/Heb ik geleerd: 

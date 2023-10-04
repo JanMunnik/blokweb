@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Jan de Munnik
 
   #### Je startniveau:
-  hier je startniveau Blauw
+  Blauw
 
   #### Je focus:
-  hier je focus Responsive
+  Responsive
  
 </details>
 
@@ -56,14 +56,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
-
+<!-- TODO fixen papier! -->
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Lijst met je bevindingen die in de test naar voren kwamen: Begint met de h1 dat de heading is van de eerste advertentie
+  gaat daarna gelijk alle h4's opnoemen wat alle nieuws articelen en producten zijn
+  de images hebben geen alt text
+  het html document is niet gevalideert
+  de focus stijl is erg onduidelijk
+  als het scherm te klein is kan je horizontaal scrollen
+  ze hebben geen dark mode
   
 </details>
 / TODO!!!!!! /
@@ -75,13 +81,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/html_sketch.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="./readme-images/Breakdownschets1.PNG" width="375px" alt="breakdown van de hele pagina">
+  <img src="./readme-images/Breakdownschets2.PNG" width="375px" alt="breakdown van de hele pagina">
+  <img src="./readme-images/Breakdownschets3.PNG" width="375px" alt="breakdown van de hele pagina">
+  <img src="./readme-images/Breakdownschets4.PNG" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="./readme-images/Breakdownschets-header.PNG" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="./readme-images/Breakdownschets-hamburger-menu.PNG" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -96,6 +105,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Goed: Indelen van de site met html en css ging best goed.
+  Lastig: Github moest wel beter geregeld worden want die werkte nu niet. En het scherm was te breed sommige delen staken helaas uit voor bijv de header. Dit was doordat mijn linkjes naast elkaar stonden die moet ik onder elkaar verdelen.
   
 
   ### Agenda voor meeting
@@ -134,24 +145,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Goed: Ik had de witruimte op mijn scherm kunnen fixen
+  Lastig: Ik moet nogsteeds even mijn Github fixen. Ik moet ook mn email input in een label zetten
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1   
+  Is het handig om darkmode toe te voegen? ookal zijn de images wit?   
+  | student 2       
+  Hoe haal ik mapjes uit mijn github of hoe verplaats ik die?   
+  | student 3    
+  Hoe zet ik labels in mijn html fixen?
+  | student 4        
+   
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - punt 1
+  mijn github regelen via student assistenten
   - punt 2
+  zelf ook een label gebruiken voor mijn email input
   - nog een punt
+  tweede scherm maken
 - ...
 
 </details>
@@ -166,7 +184,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  ik had nog geen dark mode
+  ik had nog niet overal alt text voor geschreven
+  ook waren niet alle teksten voor mijn buttons verschillend
+  Dit heb ik allemaal toegevoegd
 
 </details>
 
@@ -181,25 +202,34 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Goed: beide schermen deden het en het tabben door de site werkte goed alleen kon ik het niet visueel zien bij sommige knoppen
+  Lastig: Het regelen van tabben door sommige knoppen. Responsive maken van mijn site.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1   
+  Hoe regel ik darkmode voor mijn website?
+  | student 2       
+  Zit mijn website voor nu goed in elkaar en wat zou ik mogelijk nog kunnen toevoegen
+  | student 3    
+  was er niet
+  | student 4  
+  was er niet
+
+
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - punt 1
+  responsive maken van mijn site
   - punt 2
+  github bij gaan houden
   - nog een punt
-  - ...
+  darkmode toevoegen
 
 </details>
 
@@ -217,15 +247,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik weet hoe ik bepaalde punten in mijn website responsive kan maken.
+  <img src="./readme-images/leren-responsive1.PNG" width="375px" alt="responsive small screen">
+  <img src="./readme-images/leren-responsive2.PNG" width="375px" alt="responsive big screen">
+  Ik weet hoe ik darkmode kan toevoegen.
+  <img src="./readme-images/leren-darkmode.PNG" width="375px" alt="darkmode">
+  Ik weet hoe een screenreader nu werkt.
+  Ik weet hoe ik een toegankelijkheidstest werkt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het was me helaas niet gelukt om nog binnen de tijd mijn navigatie menu responsive te maken.
+  <img src="./readme-images/punten-verbeter1.PNG" width="375px" alt="wat ik wou maken met de header">
+  Ik wou misschien ook de refine knop links uitlijnen maar dat was me helaas ook niet gelukt toen ik eraan was begonnen maakte ik mijn hele website helaas stuk.
+  <img src="./readme-images/punten-verbeter2.PNG" width="375px" alt="refine knop op groot scherm">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+
+
 </details>
 
 
@@ -248,13 +288,4 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   5. Phone icon: phone - IconsPlace. (2018, July 19). IconsPlace. https://iconsplace.com/white-icons/phone-icon-18/
   6. speech bubble icon: Xinh Studio. (2014, May 24). speech-bubbles. The Noun Project. https://thenounproject.com/icon/speech-bubbles-51907/
   7. promotional art aos: Harrison, A. (2021). AOS: Ironjawz Faction Focus – Vanguard of Destruction. Bell of Lost Souls. https://www.belloflostsouls.net/2018/05/aos-ironjawz-faction-focus-vanguard-of-destruction.html
-
-
-
-
-
-
-
-
-
 </details>
